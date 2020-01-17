@@ -23,7 +23,6 @@ namespace ProducingAndConsumingInfiniteTasks
             InitializeComponent();
         }
         
-
         private async void BtnStartInfinityLoop_Click(object sender, EventArgs e)
         {
             // Create a cancellation token source to get a cancellation token
