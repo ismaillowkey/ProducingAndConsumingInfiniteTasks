@@ -16,7 +16,7 @@ namespace ProducingAndConsumingInfiniteTasks
 {
     public partial class Form1 : Form
     {
-        dynamic cts;
+        CancellationTokenSource cts;
 
         public Form1()
         {
